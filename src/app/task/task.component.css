@@ -1,0 +1,15 @@
+.task{
+    background-color: rgb(180, 0, 0);
+    border: solid 3px rgb(180, 0, 0);
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.task p {
+    margin-top: -12px;
+    width: 94%;
+    margin-left: 3%;
+}

@@ -1,0 +1,29 @@
+.tasks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10%;
+}
+
+.todo, .doing, .done {
+    background-color: #eee;
+    width: 300px;
+    border-radius: 20px;
+    height: 75vh;
+    margin-bottom: 20px;
+    border: solid 3px black
+}
+
+::ng-deep #yellow .task {
+    background-color: rgb(230, 190, 0);
+    border-color: rgb(230, 190, 0);
+}
+
+
+::ng-deep #green .task {
+    background-color: rgb(111, 230, 0);
+    border-color: rgb(111, 230, 0);
+}
